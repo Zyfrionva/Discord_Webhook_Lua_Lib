@@ -49,9 +49,6 @@ local function Send_New_Webhook(webhook_url, content, embedsData)
 
     local newdata = game:GetService("HttpService"):JSONEncode(data)
     
-    -- Verificar o JSON gerado
-    -- print("[ ✅ ] ╺╸ Generated JSON:", newdata)
-    
     local headers = {
         ["Content-Type"] = "application/json"
     }
@@ -82,8 +79,14 @@ local function Send_New_Webhook(webhook_url, content, embedsData)
 
     if response.StatusCode == 204 then
         print("[ ✅ ] ╺╸ Success: ", response.Success)
-        print("[ ✅ ] ╺╸ WebHook Sent whit Sucess")
+        print("[ ✅ ] ╺╸ WebHook Sent with Success")
     else
         print("[ ❌ ] ╺╸ Error While Sending WebHook ", response.StatusMessage)
     end
 end
+
+-- Retornar funções para serem usadas com loadstring
+return {
+    Create_Embed_Data = Create_Embed_Data,
+    Send_New_Webhook = Send_New_Webhook
+}
