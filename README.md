@@ -10,8 +10,6 @@ A lightweight Luau library for sending Discord webhooks directly from Roblox usi
 local WebhookLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Zyfrionva/Raws/main/WebhookLib.lua"))()
 ```
 
-> Replace `YOUR-USERNAME` with your actual GitHub username or repo owner.
-
 ---
 
 ## 🚀 Example Usage
@@ -102,4 +100,5 @@ return {
 ## 📄 License
 
 See LICENSE file. This is private software. Unauthorized use or redistribution is strictly prohibited.
+ivate software. Unauthorized use or redistribution is strictly prohibited.
 ohibited.
