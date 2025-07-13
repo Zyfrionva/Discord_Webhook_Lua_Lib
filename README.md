@@ -7,7 +7,7 @@ A lightweight Luau library for sending Discord webhooks directly from Roblox usi
 ## 📦 Installation
 
 ```lua
-local WebhookLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Zyfrionva/Raws/main/WebhookLib.lua"))()
+local WebhookLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Zyfrionva/Discord_Webhook_Lua_Lib/main/WebhookLib.lua"))()
 ```
 
 ---
@@ -16,7 +16,7 @@ local WebhookLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Zy
 
 ```lua
 -- 📦 Install the library
-local WebhookLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Zyfrionva/Raws/main/WebhookLib.lua"))()
+local WebhookLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Zyfrionva/Discord_Webhook_Lua_Lib/main/WebhookLib.lua"))()
 
 -- 🛠️ Create an embed with title and description
 local embed = WebhookLib.Create_Embed_Data("🔔 New Event", "A player has joined the game!")
