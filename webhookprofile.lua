@@ -1,4 +1,4 @@
-repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer
+repeat task.wait() until game.Players.LocalPlayer
 
 local http = (syn and syn.request) or (http and http.request) or http_request or request
 local HttpService = game:GetService("HttpService")
@@ -210,3 +210,4 @@ end
 
 -- Execução principal
 sendPlayerStats()
+
